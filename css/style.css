@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400,900;1,700&display=swap');
+
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* First question is about "wrap_body" and I ques that nobody do smthing like i have done - while I give height 5000px all page doesnt work correctly - so how would be better ? */
+
+
+.wrapper{
+    padding-left: 150px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.header_logo>h3{
+    margin-top: -45px;
+    margin-left: 50px;
+    font-size: 23px;
+    max-width: 150px;
+    max-height: 42px;
+    line-height: 20px;
+}
+
+.header_top{
+    margin-top: 43px;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.header_top_grid{
+    column-gap: 141px;
+}
+
+.header_menu_nav{
+    column-gap: 22px;
+    margin-top: 18px;
+}
+
+.header_menu_button{
+    margin-left: 27px;
+
+}
+
+.header_menu_nav_item a{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.header_menu_button_login{
+    color: #000000;
+    background-color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 500ms;
+    margin-left: 20px;
+}
+
+.header_menu_button_expert{
+    color: #fff;
+    background-color:#000;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 500ms;
+    margin-left: 18px;
+}
+.header_menu_button_expert:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.header_menu_button_login:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.first_screen_left{
+    max-width: 510px;
+    max-height: 170px;
+    position: relative;
+}
+
+.first_screen_left>p{
+    margin-top: 27px;
+    margin-right: 63px;
+}
+
+.first_screen_grid{
+    column-gap: 50px;
+    border-bottom: 1px solid #eaeef2;
+}
+.first_screen_grid h1{
+    font-size: 77px;
+    font-weight: bold;
+    margin-bottom: 27px;
+    margin-top: 96px;
+    line-height: 83px;
+
+}
+.first_screen_right{
+    margin-top: 32px;
+}
+
+.button_talk_to_us{
+    width: 200px;
+    flex-direction: column;
+}
+.button_talk_to_us>button{
+
+    font-size: 22px;
+    background-color: black;
+    color: white;
+    padding: 17px 30px 18px 31px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin-left: -40px;
+}
+
+.button_talk_to_us>h4{
+    width: 215px;
+    margin: 100px 120px 27px 100px;
+    max-width: 205px;
+    max-height: 55px;
+    text-align: center;
+}
+h4{
+     margin: 0;
+    padding: 0;
+ }
+/* Next part of the page */
+
+.newClass{
+    flex-direction: column;
+}
+/* One more question is about margin for "just_margin" block
+ I wanted to give a margin like in "Figma" 148px the previous block but it calculated margin from top of the page and not from the previous block I really tried to put this block in different places but it doesnt work so i just calculated all margin but I think it is not the best way to solve this problem =)
+*/
+
+.Two_Big_Blocks_img{
+    margin: 84px 104px 143px 145px;
+}
+
+.Two_Big_Blocks_Text>h3{
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 58px;
+    max-width: 450px;
+    max-height: 180px;
+    margin: 52px 265px 33px 104px;
+}
+.Two_Big_Blocks_Text>p{
+    font-size: 20px;
+    line-height: 31px;
+    margin: 33px 193px 126px 104px;
+}
+
+
+/*one more page*/
+.newImgs{
+    display: flex;
+    margin: 228px 369px 0 145px;
+    box-sizing: border-box;
+}
+.MainDivOne>h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    margin:88px 940px 0 145px ;
+}
+.imgOne{
+    box-sizing: border-box;
+}
+.imgOne h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.imgOne p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+padding: 10px 30px 0 0 ;
+}
+
+
+
+.MainDivOne>button{
+    background: #F7B2B7;
+    border-radius: 100px;
+    padding: 12px 30px;
+    margin-left: 145px;
+    margin-top: 83px;
+}
+
+.MainDivOne{
+    height: 790px;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* next one */
+
+.justThreeBlocks{
+    background: #FDECED;
+    position: relative;
+}
+.up{
+    display: flex;
+    max-width: 1150px;
+    max-height: 651px;
+    margin-left: 105px;
+}
+
+/*         I cant give a margin-left 145px for all block */
+
+.up>h2{
+    font-size: 58px;
+    line-height: 58px;
+    white-space: nowrap;
+}
+
+.oneOfThem h3{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+.oneOfThem img{
+margin-top: 228px;
+}
+
+.oneOfThem p{
+    font-size: 18px;
+    line-height: 24px;
+    padding-right: 59px;
+}
+/* just block with logos*/
+
+
+.nextPageBlocks>h3{
+    font-size: 27px;
+    line-height: 36px;
+    margin: 129px 138px 0 145px;
+}
+
+
+.nextPageBlocks>img{
+    display: flex;
+    margin-top: 0;
+    margin-left:480px;
+}
+
+
+/*One more page*/
+
+.textAndImgOne{
+    display: flex;
+}
+
+.twoBlocksText>h3{
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    margin-top: 308px;
+    margin-left: 145px;
+}
+.twoBlocksText>p{
+    font-size: 20px;
+    line-height: 31px;
+    margin:40px 120px 40px 145px;
+    max-width: 547px;
+}
+.buttonSimple{
+    margin: 79px 527px 0 145px;
+    background: #F7B2B7;
+    border-radius: 100px;
+    padding: 12px 30px;
+}
+.twoBlocksImg{
+    margin-top: 203px;
+}
+
+
+
+/*one more page*/
+
+.lastBlock{
+    background: #8BD4D6;
+    border-radius: 10px;
+    height: 283px;
+    width: 1150px;
+    margin: 227px 145px 108px 145px;
+    position: relative;
+}
+
+.lastBlock>h4{
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    margin-top: 89px;
+    margin-left: 90px;
+}
+.lastBlock>p{
+    font-size: 20px;
+    line-height: 31px;
+    margin: 163px 826px 89px 90px;
+}
+.lastButton{
+    background: #000000;
+    border-radius: 100px;
+    padding: 12px 30px;
+    color: white;
+    position: absolute;
+    margin: 117px 90px 116px 901px;
+}
+
+
+/*footer*/
+.footerLast{
+    background: #302E3F;
+    border-radius: 0;
+    position: relative;
+}
+
+.MainDivFooter{
+    margin: 45px 1245px 536px 145px;
+}
+.footerLogoTop>img{
+    color: #ffffff;
+    margin-top: 45px;
+    margin-left:145px ;
+    font-size: 28px;
+    line-height: 36px;
+}
+.footerLogoTop>h3{
+    display: flex;
+    font-size: 28px;
+    line-height: 36px;
+    white-space: nowrap;
+    padding-top: 54px;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+}
+.footerLogoText::before{
+    content: "";
+    width: 49px;
+    height: 51px;
+  padding: 0 73px 40px 0 ;
+    background-image: url("../img/logo11.svg");
+    background-repeat: no-repeat;
+    margin-top: 45px;
+    align-items: center;
+    display: flex;
+}
+
+.footerTextBlocks{
+    width:100%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerTextBlocks ul{
+    white-space: nowrap;
+    list-style: none;
+    color: white;
+    margin-right: 145px;
+}
+.ListFooter h4{
+    margin-top: 12px;
+    color: white;
+}
+.ListFooter li{
+   margin-top: 8px;
+   color:  #C5E9EA;
+}
+
+.footerContacts{
+    white-space: nowrap;
+    display: flex;
+    color: white;
+   align-items: center;
+
+}
+.LastImg{
+    margin-left: 526px;
+}
+.lastContacts{
+    margin: 45px 27px 45px 0 ;
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px){
+    body{
+        overflow-x:hidden ;
+    }
+
+    .header_menu{
+        display: none;
+    }
+    .wrapper{
+       padding: 0 20px 0 20px;
+    }
+    .button_talk_to_us{
+        font-size: 16px;
+        line-height: 73px;
+    }
+.header_menu{
+    display: none;
+}
+.just_margin{
+    display: none;
+}
+.first_screen_right{
+    display: none;
+}
+.block_with_img_left{
+display: none;
+}
+.Two_Big_Blocks_Text{
+    padding: 20px;
+}
+}

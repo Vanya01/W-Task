@@ -1,0 +1,116 @@
+@media screen and (max-width: 480px) {
+    .header_menu{
+        display: none;
+    }
+    .wrapper{
+     padding: 0 20px;
+    }
+    .first_screen_right{
+        display: none;
+    }
+    .button_talk_to_us{
+        position: inherit;
+        left: 10px;
+    }
+    .first_screen_grid h1{
+        font-size: 60px;
+        line-height: 73px;
+    }
+    .mobile_menu_button{
+        display: flex;
+    }
+
+    /*Next part of the page everything OK*/
+
+.Two_Blocks_second_page{
+    flex-direction: column;
+    padding: 20px;
+}
+.Two_Blocks_second_page_Second{
+    padding-top: 20px;
+}
+.Two_Blocks_second_page_First{
+    display: none;
+}
+/*<!--    Next part of the page everything OK -->*/
+
+    .Third_Page_all_Imgs{
+        flex-direction:column ;
+        padding-top: 50px;
+    }
+    .third_page_all_blocks{
+        padding: 20px;
+    }
+    .Wrapper_for_img{
+        flex-direction: column;
+    }
+
+/*    4 part of the page everything OK */
+
+.Main_two_blocks_next_page_Top{
+    padding: 30px;
+}
+.Main_two_blocks_next_page{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 100px;
+    justify-content: center;
+}
+
+
+/* fifth part of the page */
+
+.Fifth_text_and_frame{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    justify-content: center;
+    padding-left: 100px;
+}
+.Fifth_Frame{
+    display: none;
+}
+
+
+/* sixth page */
+
+.main_block_sixth{
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.Two_Blocks_six img{
+    display: none;
+}
+
+/*Seventh page*/
+
+.BgSeven{
+    flex-direction: column;
+}
+
+.Text_andImg_seven{
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+}
+
+/* footer */
+
+    .Wrapper_Bottom{
+        padding: 20px;
+    }
+.footerBlock_list{
+    display: none;
+}
+
+    .footerBlock_list:last-child{
+        display: block;
+    }
+.footerBlock_lastOne img{
+    margin: 0;
+}
+
+
+}
